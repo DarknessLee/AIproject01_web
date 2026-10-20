@@ -41,7 +41,7 @@
 
     <el-dialog 
       :title="dialogTitle" 
-      :visible.sync="dialogVisible"
+      v-model="dialogVisible"
       width="600px"
     >
       <el-form ref="roleFormRef" :model="roleForm" :rules="formRules" label-width="100px">
