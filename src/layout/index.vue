@@ -154,6 +154,10 @@ function handleCommand(command) {
   padding-top: 20px;
 }
 
+.sidebar-nav :deep(.el-menu) {
+  border-right: none;
+}
+
 .main-content {
   flex: 1;
   display: flex;
